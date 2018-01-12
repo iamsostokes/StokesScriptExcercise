@@ -1,3 +1,4 @@
+//Excercise1
 var command="Pick a number between 1 and 8!";
 var user=prompt(command);
 var total=0;
@@ -13,3 +14,11 @@ for (var num=1; num<=user; num++) {
 }
 
 console.log(total);
+
+//Exercise2
+var question="'Do you want to play?'";
+var user=prompt(question);
+var answer=""
+if(user=answer){
+  user=prompt(command);
+}
